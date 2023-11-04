@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"name": "react-10-projects",
+		"path": "../../.."
+	},
+	{
+		"name": "project3.game",
+		"path": "../../../../project3.game"
+	}
+],
+  "settings": {}
+}
