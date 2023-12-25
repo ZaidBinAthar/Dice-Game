@@ -16,6 +16,7 @@ const StartGame = ({ toggle }) => {
       <div className="content">
         <h2>Dice Game</h2>
         <Button onClick={toggle}>Play Now</Button>
+        <h5>Dev By..: Zaid Bin Ather</h5>
       </div>
     </Container>
   );

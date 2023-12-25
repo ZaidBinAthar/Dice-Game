@@ -12,7 +12,7 @@ const Rules = () => {
           will get same point as dice
         </p>
         <p>if you get wrong guess then same point as dice will be dedcuted </p>
-        <p>Game Developed By: "UNKNOWN PERSON"</p>
+        <p>Game Developed By: "AL MUMTAZ DEVELOPERS"</p>
       </div>
     </RulesContainer>
   );
