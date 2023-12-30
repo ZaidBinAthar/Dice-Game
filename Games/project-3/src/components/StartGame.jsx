@@ -19,7 +19,7 @@ const StartGame = ({ toggle }) => {
   };
 
   const handlePlayNow = () => {
-    const specialPassword = "zaid bin ather";
+    const specialPassword = "xyi4XR*.ZTbnpkU";
 
     if (verifyPassword(password, specialPassword)) {
       setIsValidPassword(true);
