@@ -19,7 +19,7 @@ const StartGame = ({ toggle }) => {
   };
 
   const handlePlayNow = () => {
-    const specialPassword = "123";
+    const specialPassword = "zaidipro";
 
     if (verifyPassword(password, specialPassword)) {
       setIsValidPassword(true);
@@ -51,7 +51,7 @@ const StartGame = ({ toggle }) => {
     <Container>
       <div>
         <div className="content">
-          <h1>
+          <h1 style={{ color: "teal" }}>
             <GiDiceFire size={600} />
           </h1>
         </div>
@@ -67,10 +67,11 @@ const StartGame = ({ toggle }) => {
         >
           <ModalContent>
             <h2>Enter Password</h2>
-            <label htmlFor="password">Password:</label>
             <input
               type="password"
               id="password"
+              placeholder="Password"
+              style={{ margin: "5px", padding: "10px", width: "300px", borderRadius: "5px" }}
               value={password}
               onKeyDown={handleKeyDown}
               onChange={handlePasswordChange}
@@ -78,7 +79,8 @@ const StartGame = ({ toggle }) => {
             {!isValidPassword && (
               <ErrorMessage>Invalid password. Please try again.</ErrorMessage>
             )}
-            <Button onClick={handlePlayNow}>Submit</Button>
+            <br />
+            <Button onClick={handlePlayNow} style={{ margin: "5px", padding: "10px", width: "323px" }}>Submit</Button>
           </ModalContent>
         </Modal>
       </div>

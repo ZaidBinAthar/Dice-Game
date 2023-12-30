@@ -27,7 +27,7 @@ const GamePlay = () => {
     setCurrentDice((prev) => randomNumber);
 
     if (selectedNumber === randomNumber) {
-      setScore((prev) => prev + randomNumber);
+      setScore((prev) => prev + randomNumber + 50);
     } else {
       setScore((prev) => prev - randomNumber);
     }

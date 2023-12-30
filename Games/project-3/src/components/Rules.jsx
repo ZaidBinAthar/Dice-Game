@@ -9,7 +9,7 @@ const Rules = () => {
         <p>2: Click on dice image</p>
         <p>
           after click on dice if selected number is equal to dice number you
-          will get same point as dice
+          will get same point as dice + 50
         </p>
         <p>if you get wrong guess then same point as dice will be dedcuted </p>
         <p>Game Developed By: "AL MUMTAZ DEVELOPERS"</p>
