@@ -5,6 +5,7 @@ import { Button } from "../styled/Button";
 import { GiDiceFire } from "react-icons/gi";
 import Modal from "react-modal";
 import { verifyPassword } from "./verifyPassword";
+import { IoReturnDownBackOutline } from "react-icons/io5";
 
 Modal.setAppElement("#root"); // Set the root element for accessibility
 
@@ -81,6 +82,8 @@ const StartGame = ({ toggle }) => {
             )}
             <br />
             <Button onClick={handlePlayNow} style={{ margin: "5px", padding: "10px", width: "323px" }}>Submit</Button>
+            <br />
+            <Button onClick={closeModal} style={{ margin: "5px", padding: "10px", width: "323px" }}>Back</Button>
           </ModalContent>
         </Modal>
       </div>
