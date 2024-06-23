@@ -20,7 +20,7 @@ const StartGame = ({ toggle }) => {
   };
 
   const handlePlayNow = () => {
-    const specialPassword = "zaidipro";
+    const specialPassword = "hamzapro";
 
     if (verifyPassword(password, specialPassword)) {
       setIsValidPassword(true);
