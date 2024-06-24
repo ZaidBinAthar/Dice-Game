@@ -1,6 +1,7 @@
 import { useState } from "react";
 import StartGame from "./components/StartGame";
 import GamePlay from "./components/GamePlay";
+import SocketManager from "./components/SocketManager";
 
 function App() {
   const [isGameStarted, setIsGameStarted] = useState(false);
@@ -10,7 +11,7 @@ function App() {
   };
 
   return (
-    <>{isGameStarted ? <GamePlay /> : <StartGame toggle={toggleGamePlay} />}</>
+    <><SocketManager />{isGameStarted ? <GamePlay /> : <StartGame toggle={toggleGamePlay} />}</>
   );
 }
 export default App;
